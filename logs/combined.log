@@ -32,3 +32,8 @@
 {"level":"info","message":"User created successfully: test2@contact.com","service":"acquisitions-api","timestamp":"2026-08-28T06:24:38.192Z"}
 {"level":"info","message":"User registered successfully: test2@contact.com","service":"acquisitions-api","timestamp":"2026-08-28T06:24:38.210Z"}
 {"level":"info","message":"::1 - - [28/Aug/2026:06:24:38 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-28T06:24:38.223Z"}
+{"level":"info","message":"User authenticated successfully: test2@contact.com","service":"acquisitions-api","timestamp":"2026-08-28T07:00:12.226Z"}
+{"level":"info","message":"User signed in successfully: test2@contact.com","service":"acquisitions-api","timestamp":"2026-08-28T07:00:12.230Z"}
+{"level":"info","message":"::1 - - [28/Aug/2026:07:00:12 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 114 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-28T07:00:12.236Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2026-08-28T07:00:45.368Z"}
+{"level":"info","message":"::1 - - [28/Aug/2026:07:00:45 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-08-28T07:00:45.369Z"}
